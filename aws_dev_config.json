@@ -1,0 +1,30 @@
+{
+  "aws_key": "AKIA2PFUWBFMZUBKZRM2",
+  "aws_token": "COqpPS/RU/jOChr9WeiH0W5HgNm2c7EfVHddYw1M",
+  "functions": [
+    {
+      "name": "FunctionA",
+      "description": "This function performs data processing",
+      "handler": "functionA.handler",
+      "timeout": 300
+    },
+    {
+      "name": "FunctionB",
+      "description": "This function sends notification emails",
+      "handler": "functionB.handler",
+      "timeout": 180
+    },
+    {
+      "name": "FunctionC",
+      "description": "This function generates reports",
+      "handler": "functionC.handler",
+      "timeout": 600
+    },
+    {
+      "name": "FunctionD",
+      "description": "This function sends data to an external API",
+      "handler": "functionD.handler",
+      "timeout": 120
+    }
+  ]
+}
